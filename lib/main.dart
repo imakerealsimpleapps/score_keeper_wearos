@@ -157,16 +157,23 @@ class _ActiveWatchFaceState extends State<ActiveWatchFace> {
         body: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 48.0,
             children: [
-              const SizedBox(
+              /*const SizedBox(
                 height: 32.0,
-              ),
+              ),*/
               RoundButton(
-                color: Colors.blue,
+                shape: RoundButtonShape.rectangle,
+                color: Colors.red[400],
                 onPressed: () {
                   _clearScores();
                 },
-                child: const Text('clear'),
+                child: const Text(
+                  'clear',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
