@@ -1,4 +1,4 @@
-package com.example.score_keeper
+package com.imakerealsimpleapps.score_keeper
 
 import io.flutter.embedding.android.FlutterActivity
 
