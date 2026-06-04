@@ -151,6 +151,9 @@ class _ActiveWatchFaceState extends State<ActiveWatchFace> {
 
   @override
   Widget build(BuildContext context) {
+    final double width = MediaQuery.of(context).size.width;
+    final double height = MediaQuery.of(context).size.height;
+
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
@@ -187,15 +190,15 @@ class _ActiveWatchFaceState extends State<ActiveWatchFace> {
                     onLongPressed: () {
                       _decrementLightScore();
                     },
-                    width: 100,
-                    height: 100,
+                    width: width/3,
+                    height: height/3,
                     radius: 100,
                     child: Text('$lightScore'),
                   ),
                   RoundButton(
                     color: Colors.blueGrey,
-                    width: 100,
-                    height: 100,
+                    width: width/3,
+                    height: height/3,
                     radius: 100,
                     child: Text(
                       '$darkScore',
