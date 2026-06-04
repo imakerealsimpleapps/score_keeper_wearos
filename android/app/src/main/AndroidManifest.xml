@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service
+        <!--<service
             android:name=".ScoreTileService"
             android:label="Score Keeper Tile"
             android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER"
@@ -36,7 +36,7 @@
             <intent-filter>
                 <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
             </intent-filter>
-        </service>
+        </service>-->
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

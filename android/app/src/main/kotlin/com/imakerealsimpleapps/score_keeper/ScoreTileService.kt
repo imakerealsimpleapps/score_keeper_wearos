@@ -1,4 +1,4 @@
-package com.imakerealsimpleapps.score_keeper
+/* package com.imakerealsimpleapps.score_keeper
 
 import android.content.Context
 import androidx.wear.protolayout.ActionBuilders
@@ -120,3 +120,4 @@ class ScoreTileService :  SuspendingTileService()  {
             ).build()
     }
 }
+*/

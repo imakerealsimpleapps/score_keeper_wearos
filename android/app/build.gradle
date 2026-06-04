@@ -68,5 +68,5 @@ dependencies {
     implementation 'com.google.android.support:wearable:2.9.0'
     compileOnly 'com.google.android.wearable:wearable:2.9.0'
     implementation 'com.google.guava:guava:33.5.0-android'
-    implementation "com.google.android.horologist:horologist-tiles:1.0.0"
+    //implementation "com.google.android.horologist:horologist-tiles:1.0.0"
 }
