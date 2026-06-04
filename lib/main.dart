@@ -187,10 +187,16 @@ class _ActiveWatchFaceState extends State<ActiveWatchFace> {
                     onLongPressed: () {
                       _decrementLightScore();
                     },
+                    width: 100,
+                    height: 100,
+                    radius: 100,
                     child: Text('$lightScore'),
                   ),
                   RoundButton(
                     color: Colors.blueGrey,
+                    width: 100,
+                    height: 100,
+                    radius: 100,
                     child: Text(
                       '$darkScore',
                       style: const TextStyle(

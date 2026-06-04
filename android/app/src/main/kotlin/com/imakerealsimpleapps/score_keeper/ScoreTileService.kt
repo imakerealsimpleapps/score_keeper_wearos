@@ -13,9 +13,11 @@ import androidx.wear.tiles.TileBuilders
 import androidx.wear.tiles.TileService
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
+
 import android.graphics.Color
 
-class ScoreTileService : TileService() {
+class ScoreTileService :  SuspendingTileService()  {
+
     private val RESOURCES_VERSION = "1"
 
     companion object {

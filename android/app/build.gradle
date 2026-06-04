@@ -62,10 +62,11 @@ flutter {
 
 dependencies {
     // Wear libraries
-    implementation 'androidx.wear.tiles:tiles:1.2.0'
-    implementation 'androidx.wear.tiles:tiles-material:1.2.0'
-    implementation 'com.android.support:wear:27.1.1'
+    implementation 'androidx.wear.tiles:tiles:1.5.0'
+    implementation 'androidx.wear.tiles:tiles-material:1.5.0'
+    implementation 'com.android.support:wear:28.0.0'
     implementation 'com.google.android.support:wearable:2.9.0'
     compileOnly 'com.google.android.wearable:wearable:2.9.0'
-    implementation 'com.google.guava:guava:31.1-android'
+    implementation 'com.google.guava:guava:33.5.0-android'
+    implementation "com.google.android.horologist:horologist-tiles:1.0.0"
 }
